@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@1&family=Bevan&family=Sansita+Swashed:wght@400;700&display=swap');
+
+
+
+header h1 {
+
+  font-size: 4.25em;
+  text-align: center;
+  font-family:  'Bevan', cursive;；
+
+}
+
+a  {
+  font-size: 2.25em;
+  font-family: 'Arapey', serif;
+  text-align: center;
+
+}
+
+#main-menu {
+  font-size: 1em;
+  font-family: 'Arapey', serif;
+  text-align: center;
+  line-height: 2;
+
+
+}
+
+
+#fable01 {
+  font-family:  'Bevan', cursive;
+}
+
+#fable01 h2 {
+  font-size: 3.052em;
+  margin: 2.75rem 0 2.75rem 0;
+  font-family:  'Bevan', cursive;
+}
+
+#fable01 p {
+  font-size: 2em;
+  margin-bottom: 5em;
+  font-family: 'Arapey', serif;
+
+}
+
+
+#fable02 {
+font-family: 'Righteous', cursive;
+}
+
+#fable02 h2 {
+  font-family: 'Bevan', cursive;
+  font-size: 3em;
+}
+
+
+
+#fable03 {
+  font-family:  'Righteous', cursive;
+  color: #10375c;
+}
+
+#fable03 h2 {
+  font-family: 'Bevan', cursive;
+  font-size: 3em;
+  color: #555168;
+}
+
+#fable04 {
+font-family: 'Righteous', cursive;
+}
+
+#fable04 h2 {
+  font-family: 'Bevan', cursive;
+  font-size: 3em;
+}
+
+#fable05 {
+  font-family:  'Righteous', cursive;
+  color: #10375c;
+}
+
+#fable05 h2 {
+  font-family: 'Bevan', cursive;
+  font-size: 3em;
+  color: #555168;
+}

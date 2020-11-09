@@ -1,0 +1,243 @@
+body {
+  background: #000 url('images/beijing1.jpg') 50% 50% no-repeat;
+  background-size: cover;
+}
+
+
+header {
+  min-height: 50vh;
+  padding: 1em;
+  background: #000 url('images/beijing1.jpg') 50% 50% no-repeat;
+  background-size: cover;
+  color: #9B93DF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+section{
+  min-height: 100vh;
+  box-shadow: 10px 10px 5px 0px rgba(166,130,21,1);
+}
+
+
+
+a:link {
+  color:#9B93DF;
+  text-decoration:none;
+  }    /* 未被访问的链接 */
+a:visited {
+  color:#555168;
+  text-decoration:underline;
+  } /* 已被访问的链接 */
+a:hover{
+  color:#844685;
+  text-decoration:underline;
+  }   /* 鼠标指针移动到链接上 */
+
+
+#main-menu{
+  font-size: 2em;
+  position:absolute;
+  top:200px;
+  left:0px;
+  width:200px;
+  height: 100%;
+  transition: 3s ease all;
+  z-index: 999;
+
+}
+
+
+
+.menu-toggle{
+  color: #9B93DF;
+  padding: 1em;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.menu-close{
+  display:block;
+  width:16px;
+  height:16px;
+  background: #000;
+
+  border-radius: 100%;
+  position: absolute;
+  top:16px;
+  right:16px;
+}
+
+#fable01 {
+  min-height: 50vh;
+  background: #9B93DF ;
+  overflow: hidden;
+  padding: 70px;
+
+}
+#fable01 .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#fable01 .text-content {
+
+  padding: 42px;
+  margin: 6px;
+/*  max-width: 620px; */
+  flex-basis: 420px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#fable01 figure {
+/*  max-width: 620px; */
+  flex-basis: 420px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  margin: 6px;
+}
+
+#fable01 figure img {
+  width : 100%;
+  border : 4px solid #000;
+  border-width:5px;
+  border-color:#555168;
+
+}
+
+
+#fable02 {
+  overflow: hidden;
+  background: #000 url('images/bee-qianzi.jpg') 50% 50% no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+#fable02 h2{
+  padding: 40px;
+}
+#fable02 p {
+  max-width: 840px;
+  text-align: left;
+  text-shadow: 6px 6px 4px #555168 ;
+  letter-spacing: 0.25em;
+  line-height: 2;
+}
+#fable02 video {
+  display: flex;
+  padding: 10px;
+  width : 40%;
+}
+
+
+#fable03 {
+  min-height: 50vh;
+  background: #9B93DF ;
+  padding: 70px;
+}
+#fable03 h2{
+color: #555168;
+}
+#fable03 .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#fable03 .text-content {
+  padding: 42px;
+  margin: 6px;
+/*  max-width: 620px; */
+  flex-basis: 420px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#fable03 video {
+/*  max-width: 620px; */
+  flex-basis: 420px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  margin: 6px;
+  border : 4px solid #000;
+  border-width:5px;
+  border-color:#555168;
+}
+
+
+#fable04 {
+  overflow: hidden;
+  background: #000 url('images/bee-baise.jpg') 50% 50% no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+#fable04 p {
+  max-width: 840px;
+  text-align: left;
+  text-shadow: 6px 6px 4px #555168 ;
+  letter-spacing: 0.25em;
+  line-height: 2;
+}
+#fable04 video {
+  display: flex;
+  padding: 10px;
+  width : 40%;
+}
+
+#fable05 {
+  min-height: 50vh;
+  background: #9B93DF ;
+  padding: 70px;
+}
+#fable05 h2{
+color: #555168;
+}
+#fable05 .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#fable05 .text-content {
+  padding: 42px;
+  margin: 6px;
+/*  max-width: 620px; */
+  flex-basis: 420px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#fable05 video {
+/*  max-width: 620px; */
+  flex-basis: 420px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  margin: 6px;
+  border : 4px solid #000;
+  border-width:5px;
+  border-color:#555168;
+}
+
+#menu-inline {
+  padding: 40px;
+  margin:0;
+  text-align:center;
+  display: inline;
+}
